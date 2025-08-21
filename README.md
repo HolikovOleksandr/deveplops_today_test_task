@@ -28,3 +28,7 @@ To run the app in detached mode (without logs in the terminal):
 ```
 docker compose up --build -d
 ```
+
+## API Documentation
+
+The API is documented using Swagger and is available at [`/api/docs`](http://localhost:3001/api/docs) when the application is running. You can use this interface to explore and test all available endpoints interactively.
