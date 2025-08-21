@@ -1,0 +1,38 @@
+TODO
+
+- [ ] Backend Setup
+  - [ ] Initialize Node.js project (Nest.js or Express.js) with Typescript
+  - [ ] Set up database
+
+- [ ] API Endpoints
+  - [ ] Get Available Countries
+    - [ ] Create endpoint using Date Nager API: https://date.nager.at/api/v3/AvailableCountries
+    - [ ] Return list of available countries
+  - [ ] Get Country Info
+    - [ ] Create endpoint to retrieve detailed info for a country
+    - [ ] List of border countries (https://date.nager.at/api/v3/CountryInfo/{code})
+    - [ ] Population data (https://countriesnow.space/api/v0.1/countries/population)
+    - [ ] Flag URL (https://countriesnow.space/api/v0.1/countries/flag/images)
+  - [ ] Add National Holidays to User Calendar
+    - [ ] POST /users/:userId/calendar/holidays
+    - [ ] Fetch holidays from https://date.nager.at/api/v3/PublicHolidays/{year}/{countryCode}
+    - [ ] Filter holidays if list provided
+    - [ ] Save selected holidays as events in user’s calendar DB
+
+- [ ] Environment Variables
+  - [ ] Create .env file for sensitive data (API keys, base URLs)
+  - [ ] Load and use env variables securely
+  - [ ] Add .env to repository
+
+- [ ] Code Quality
+  - [ ] Set up ESLint
+  - [ ] Set up Prettier
+  - [ ] Lint and format all files
+
+- [ ] Documentation
+  - [ ] Create README.md with install, run, and test instructions
+  - [ ] Document setup steps (dependencies, env variables)
+
+- [ ] Reference APIs
+  - [ ] Nager.Date API: https://date.nager.at/swagger/index.html
+  - [ ] Postman Country Info API: https://documenter.getpostman.com/view/1134062/T1LJjU52
