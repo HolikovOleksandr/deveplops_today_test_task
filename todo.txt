@@ -1,7 +1,7 @@
 TODO
 
-- [ ] Backend Setup
-  - [ ] Initialize Node.js project (Nest.js or Express.js) with Typescript
+- [✅] Backend Setup
+  - [✅] Initialize Node.js project (Nest.js or Express.js) with Typescript
   - [ ] Set up database
 
 - [ ] API Endpoints
