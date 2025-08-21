@@ -2,3 +2,6 @@
 .idea
 dist
 node_modules
+
+# Should be included in the repository
+# .env

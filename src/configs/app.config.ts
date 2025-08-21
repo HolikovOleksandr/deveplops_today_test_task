@@ -8,5 +8,9 @@ export default () => ({
     username: process.env.DB_USERNAME || 'postgres',
     password: process.env.DB_PASSWORD || 'password',
     database: process.env.DB_DATABASE || 'dev_db',
+  },
+  redis: {
+    port: process.env.REDIS_PORT || 6379,
+    url: process.env.REDIS_URL || 'redis://redis:6379',
   }
 });
