@@ -13,11 +13,11 @@ TODO
     - [✅] List of border countries (https://date.nager.at/api/v3/CountryInfo/{code})
     - [✅] Population data (https://countriesnow.space/api/v0.1/countries/population)
     - [✅] Flag URL (https://countriesnow.space/api/v0.1/countries/flag/images)
-  - [ ] Add National Holidays to User Calendar
-    - [ ] POST /users/:userId/calendar/holidays
-    - [ ] Fetch holidays from https://date.nager.at/api/v3/PublicHolidays/{year}/{countryCode}
-    - [ ] Filter holidays if list provided
-    - [ ] Save selected holidays as events in user’s calendar DB
+  - [✅] Add National Holidays to User Calendar
+    - [✅] POST /users/:userId/calendar/holidays
+    - [✅] Fetch holidays from https://date.nager.at/api/v3/PublicHolidays/{year}/{countryCode}
+    - [✅] Filter holidays if list provided
+    - [✅] Save selected holidays as events in user’s calendar DB
 
 - [✅] Environment Variables
   - [✅] Create .env file for sensitive data (API keys, base URLs)
